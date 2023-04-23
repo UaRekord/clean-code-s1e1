@@ -18,7 +18,7 @@
       <p id="topSectionForAddingElementToList">
         <label for="newTask" class="add-block__label">Add Item</label>
         <div class="add-block__wrapper">
-          <input id="newTask" class="task add-block__input" type="text">
+          <input id="newTask" class="task add-block__input input" type="text">
           <button class="button">Add</button>
         </div>
       </p>
@@ -26,27 +26,27 @@
     <section class="todo-block">
       <h3 class="h3-text">Todo</h3>
       <ul id="incompleteTasks">
-        <li>
-          <input type="checkbox">
-          <label class="task">Pay Bills</label>
-          <input type="text" class="task">
+        <li class="list-item">
+          <input type="checkbox" class="todo-block__checkbox">
+          <label class="task label">Pay Bills</label>
+          <input type="text" class="task todo-block__input input">
           <button class="button edit">Edit</button>
           <button class="button delete"><img class="button__img" src="./remove.svg" alt=""></button>
         </li>
-        <li class="edit-mode">
-          <input type="checkbox">
-          <label class="task">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="task">
+        <li class="edit-mode list-item">
+          <input type="checkbox" class="todo-block__checkbox">
+          <label class="task label">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="task todo-block__input input">
           <button class="button edit">Save</button>
           <button class="button delete"><img class="button__img" src="./remove.svg" alt=""></button>
         </li>
       </ul>
       <h3 class="h3-text">Completed</h3>
       <ul id="completedTasks" class="completed-tasks">
-        <li>
-          <input type="checkbox" checked>
-          <label class="task">See the Doctor</label>
-          <input type="text" class="task">
+        <li class="list-item">
+          <input type="checkbox" class="todo-block__checkbox" checked>
+          <label class="task label">See the Doctor</label>
+          <input type="text" class="task todo-block__input input">
           <button class="button edit">Edit</button>
           <button class="button delete"><img class="button__img" src="./remove.svg" alt=""></button>
         </li>
